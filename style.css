@@ -1,0 +1,99 @@
+body {
+    padding:  0 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.navbar .menu-kiri {
+    padding: 20px;
+    color: rgb(0, 0, 0)
+    
+}
+
+.navbar .menu-tengah {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.navbar .menu-tengah a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .menu-kanan .facebook{
+    padding: 20px;
+    background: rgb(0, 102, 255);
+    color: #ffff;
+    border-radius: 30px;
+}
+
+.navbar .menu-kanan .whatsapp{
+    padding: 20px;
+    background: red;
+    color: #ffff;
+    border-radius: 30px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero h1 {
+    width: 500px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+
+  .hero .Foto img{
+    width: 100%;
+  }
+
+.hero .button {
+    width: 100px;
+    background: red;
+    padding: 20px;
+    border-radius: 30px;
+    color: #ffff;
+    text-align: center;
+}
+
+.soang {
+    width: 50%;
+}
+
+.konten {
+    padding: 100px 0;
+    overflow: hidden;
+}
+  
+.konten .spec h3 {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.konten .spec h6 {
+    text-align: center;
+}
+
+.konten-konten {
+    display: flex;
+}
+
+.konten-konten .isi {
+    width: 400px;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;   
+}
